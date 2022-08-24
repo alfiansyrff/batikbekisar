@@ -1,0 +1,41 @@
+body {
+  background-image: url(/Assets/Images/bg.png);
+  height: 100vh;
+}
+
+.bg-wheat {
+  background-color: rgb(247, 247, 247);
+}
+
+.main-pict {
+  width: 400px;
+  height: 400px;
+}
+
+.btn {
+  display: none;
+}
+
+@media only screen and (max-width: 760px) {
+  body {
+    height: 75%;
+  }
+  .container-md {
+    margin-top: 25%;
+    width: 80vw;
+  }
+  .main-pict {
+    width: 200px;
+    height: 200px;
+  }
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
+
+
+
